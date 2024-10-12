@@ -6,8 +6,6 @@
 *.pkl
 *.bin
 *.h5
-*.safetensors
 *.pyc
-wav2vec2-base-960h
-vocaset
 models
+datasets
