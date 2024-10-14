@@ -35,4 +35,9 @@ def _predict_once(self, x, profile=False, visualize=False, embed=None)函数得�
 # return x
 return x.permute(0, 2, 1)
 ```
-修改以上源码之后执行以上脚本会在原始pt模型所在目录下生成导出的onnx模型即为opt版本得`yolov11s.onnx`
+修改以上源码之后请执行下面安装命令：
+```bash
+pip3 install -e .
+```
+
+再重新执行以上导出的python脚本会在原始pt模型所在目录下生成导出的onnx模型即为opt版本的`yolov11s.onnx`
