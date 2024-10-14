@@ -1,10 +1,10 @@
 # YOLOv11模型导出
 ## 1. 准备工作
-YOLOv11模型导出是在Pytorch模型的生产环境下进行的，需提前根据[​YOLOv11官方开源仓库](https://github.com/ultralytics/ultralytics)的要求安装好Pytorch环境，准备好相应的代码和模型，并保证模型能够在Pytorch环境下正常推理运行。本例程导出环境版本为：`torch==2.0.1+cpu, onnx==1.15.0`。
+YOLOv11模型导出是在Pytorch模型的生产环境下进行的，需提前根据[​YOLOv11官方开源仓库](https://github.com/ultralytics/ultralytics)的要求安装好Pytorch环境，准备好相应的代码和模型，并保证模型能够在Pytorch环境下正常推理运行。本例程导出环境版本为：`torch==2.2.0+cpu, onnx==1.15.0`。
 
 同时需要安装官方提供的第三方库：
 ```bash
-pip3 install ultralytics==8.1.27
+pip3 install ultralytics==8.3.12
 ```
 
 ## 2. 导出onnx模型

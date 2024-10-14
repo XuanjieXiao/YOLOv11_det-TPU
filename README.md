@@ -89,8 +89,6 @@ chmod -R +x scripts/
 │   ├── yolov11s_opt_fp16_1b.bmodel   # 使用TPU-MLIR编译，用于CV186X的FP16 BModel，batch_size=1
 │   ├── yolov11s_opt_int8_1b.bmodel   # 使用TPU-MLIR编译，用于CV186X的INT8 BModel，batch_size=1
 │   └── yolov11s_opt_int8_4b.bmodel   # 使用TPU-MLIR编译，用于CV186X的INT8 BModel，batch_size=4
-│── torch
-│   └── yolov11s.torchscript.pt   # trace后的torchscript模型
 └── onnx
     ├── yolov11s.onnx      # 导出的动态onnx模型
     ├── yolov11s_opt.onnx      # 导出的动态opt onnx模型
