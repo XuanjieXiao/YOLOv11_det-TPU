@@ -365,20 +365,20 @@ then
     test_cpp pcie bmcv yolov11s_int8_1b.bmodel ../../datasets/coco/val2017_1000
     test_cpp pcie bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.4479302040939629 
-    eval_python opencv yolov11s_int8_1b.bmodel 0.4344215119392421
-    eval_python opencv yolov11s_int8_4b.bmodel 0.4344215119392421
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.4475038357107833
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.4345234047997813
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.4345234047997813
-    eval_cpp pcie bmcv yolov11s_fp32_1b.bmodel  0.44788032746195144
-    eval_cpp pcie bmcv yolov11s_int8_1b.bmodel  0.43571834186276253
-    eval_cpp pcie bmcv yolov11s_int8_4b.bmodel  0.43571834186276253 
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.4712899016579692 
+    eval_python opencv yolov11s_int8_1b.bmodel 0.4398160893310712
+    eval_python opencv yolov11s_int8_4b.bmodel 0.4398160893310712
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47083941877851043
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.4388062758140766
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.4388062758140766
+    eval_cpp pcie bmcv yolov11s_fp32_1b.bmodel  0.47171210292981663
+    eval_cpp pcie bmcv yolov11s_int8_1b.bmodel  0.440754587820159
+    eval_cpp pcie bmcv yolov11s_int8_4b.bmodel  0.440754587820159 
 
   
-    eval_cpp pcie bmcv yolov11s_opt_fp32_1b.bmodel 0.44788032746195144
-    eval_cpp pcie bmcv yolov11s_opt_int8_1b.bmodel 0.42571834186276253 
-    eval_cpp pcie bmcv yolov11s_opt_int8_4b.bmodel 0.42571834186276253  
+    eval_cpp pcie bmcv yolov11s_opt_fp32_1b.bmodel 0.47171210292981663
+    eval_cpp pcie bmcv yolov11s_opt_int8_1b.bmodel 0.440754587820159 
+    eval_cpp pcie bmcv yolov11s_opt_int8_4b.bmodel 0.440754587820159  
   elif test $TARGET = "BM1684X"
   then
    
@@ -409,18 +409,18 @@ then
     test_cpp pcie bmcv yolov11s_int8_1b.bmodel ../../datasets/coco/val2017_1000
     test_cpp pcie bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.44792962547537846 
-    eval_python opencv yolov11s_fp16_1b.bmodel 0.4474406103144259
-    eval_python opencv yolov11s_int8_1b.bmodel 0.44363683839012335
-    eval_python opencv yolov11s_int8_4b.bmodel 0.44363683839012335
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.44719892316372183
-    eval_python bmcv yolov11s_fp16_1b.bmodel   0.447214614067724
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.441993864102506
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.441993864102506
-    eval_cpp pcie bmcv yolov11s_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp pcie bmcv yolov11s_fp16_1b.bmodel  0.4474323631416696
-    eval_cpp pcie bmcv yolov11s_int8_1b.bmodel  0.44346480126650034
-    eval_cpp pcie bmcv yolov11s_int8_4b.bmodel  0.44346480126650034
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.47128957558051665 
+    eval_python opencv yolov11s_fp16_1b.bmodel 0.4711250723977147
+    eval_python opencv yolov11s_int8_1b.bmodel 0.465608968577901
+    eval_python opencv yolov11s_int8_4b.bmodel 0.465608968577901
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47052826151253596
+    eval_python bmcv yolov11s_fp16_1b.bmodel   0.470552281635821
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.46364504918490135
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.46364504918490135
+    eval_cpp pcie bmcv yolov11s_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp pcie bmcv yolov11s_fp16_1b.bmodel  0.4713165101098466
+    eval_cpp pcie bmcv yolov11s_int8_1b.bmodel  0.464659915536725
+    eval_cpp pcie bmcv yolov11s_int8_4b.bmodel  0.464659915536725
 
 
    
@@ -433,10 +433,10 @@ then
     test_cpp pcie bmcv yolov11s_opt_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
     
-    eval_cpp pcie bmcv yolov11s_opt_fp32_1b.bmodel 0.44793660381041184
-    eval_cpp pcie bmcv yolov11s_opt_fp16_1b.bmodel 0.4474323631416696 
-    eval_cpp pcie bmcv yolov11s_opt_int8_1b.bmodel 0.44246480126650034
-    eval_cpp pcie bmcv yolov11s_opt_int8_4b.bmodel 0.44246480126650034
+    eval_cpp pcie bmcv yolov11s_opt_fp32_1b.bmodel 0.4713286897219671
+    eval_cpp pcie bmcv yolov11s_opt_fp16_1b.bmodel 0.4713165101098466 
+    eval_cpp pcie bmcv yolov11s_opt_int8_1b.bmodel 0.464659915536725
+    eval_cpp pcie bmcv yolov11s_opt_int8_4b.bmodel 0.464659915536725
   fi
 elif test $MODE = "soc_build"
 then
@@ -470,15 +470,15 @@ then
     test_cpp soc bmcv yolov11s_int8_1b.bmodel ../../datasets/coco/val2017_1000
     test_cpp soc bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.4479302040939629 
-    eval_python opencv yolov11s_int8_1b.bmodel 0.4344215119392421
-    eval_python opencv yolov11s_int8_4b.bmodel 0.4344215119392421
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.4475038357107833
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.4345234047997813
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.4345234047997813
-    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.44788032746195144
-    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.43571834186276253
-    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.43571834186276253
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.4712899016579692 
+    eval_python opencv yolov11s_int8_1b.bmodel 0.4398160893310712
+    eval_python opencv yolov11s_int8_4b.bmodel 0.4398160893310712
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47083941877851043
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.4388062758140766
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.4388062758140766
+    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.47171210292981663
+    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.440754587820159
+    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.440754587820159
     
 
     
@@ -490,9 +490,9 @@ then
     test_cpp soc bmcv yolov11s_opt_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
    
-    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.44788032746195144
-    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.42571834186276253
-    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.42571834186276253
+    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.47171210292981663
+    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.440754587820159
+    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.440754587820159
   elif test $TARGET = "BM1684X"
   then
  
@@ -524,30 +524,31 @@ then
     test_cpp soc bmcv yolov11s_int8_1b.bmodel ../../datasets/coco/val2017_1000
     test_cpp soc bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.44792962547537846 
-    eval_python opencv yolov11s_fp16_1b.bmodel 0.4474406103144259
-    eval_python opencv yolov11s_int8_1b.bmodel 0.44363683839012335
-    eval_python opencv yolov11s_int8_4b.bmodel 0.44363683839012335
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.44719892316372183
-    eval_python bmcv yolov11s_fp16_1b.bmodel   0.447214614067724
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.441993864102506
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.441993864102506
-    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4474323631416696
-    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.44346480126650034
-    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.44346480126650034
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.47128957558051665 
+    eval_python opencv yolov11s_fp16_1b.bmodel 0.4711250723977147
+    eval_python opencv yolov11s_int8_1b.bmodel 0.465608968577901
+    eval_python opencv yolov11s_int8_4b.bmodel 0.465608968577901
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47052826151253596
+    eval_python bmcv yolov11s_fp16_1b.bmodel   0.470552281635821
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.46364504918490135
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.46364504918490135
+    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4713165101098466
+    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.464659915536725
+    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.464659915536725
 
 
-
+    test_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel ../../datasets/coco/val2017_1000
+    test_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel ../../datasets/coco/val2017_1000
+    test_cpp soc bmcv yolov11s_opt_int8_1b.bmodel ../../datasets/coco/val2017_1000
+    test_cpp soc bmcv yolov11s_opt_int8_4b.bmodel ../../datasets/coco/val2017_1000
    
-    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4474323631416696
-    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.44246480126650034
-    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.44246480126650034
+    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4713165101098466
+    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.464659915536725
+    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.464659915536725
   elif test $TARGET = "BM1688"
   then
-
-
 
     test_python opencv yolov11s_fp32_1b.bmodel datasets/test_car_person_1080P.mp4
     test_python opencv yolov11s_fp16_1b.bmodel datasets/test_car_person_1080P.mp4
@@ -578,18 +579,18 @@ then
     test_cpp soc bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.44792962547537846 
-    eval_python opencv yolov11s_fp16_1b.bmodel 0.4474406103144259
-    eval_python opencv yolov11s_int8_1b.bmodel 0.44363683839012335
-    eval_python opencv yolov11s_int8_4b.bmodel 0.44363683839012335
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.44722585203138715
-    eval_python bmcv yolov11s_fp16_1b.bmodel   0.4469147670944586
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.44295948842732535
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.44295948842732535
-    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4476323631416696
-    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.44312434960861097
-    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.44312434960861097
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.47128957558051665 
+    eval_python opencv yolov11s_fp16_1b.bmodel 0.4711250723977147
+    eval_python opencv yolov11s_int8_1b.bmodel 0.465608968577901
+    eval_python opencv yolov11s_int8_4b.bmodel 0.465608968577901
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47105278881045226
+    eval_python bmcv yolov11s_fp16_1b.bmodel   0.4707677750154104
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.46160016818445254
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.46160016818445254
+    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4716757610683624
+    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.4626535180155778
 
 
     test_python opencv yolov11s_fp32_1b_2core.bmodel datasets/coco/val2017_1000
@@ -606,18 +607,18 @@ then
     test_cpp soc bmcv yolov11s_int8_4b_2core.bmodel ../../datasets/coco/val2017_1000
 
 
-    eval_python opencv yolov11s_fp32_1b_2core.bmodel 0.44792962547537846 
-    eval_python opencv yolov11s_fp16_1b_2core.bmodel 0.4474406103144259
-    eval_python opencv yolov11s_int8_1b_2core.bmodel 0.44363683839012335
-    eval_python opencv yolov11s_int8_4b_2core.bmodel 0.44363683839012335
-    eval_python bmcv yolov11s_fp32_1b_2core.bmodel   0.44722585203138715
-    eval_python bmcv yolov11s_fp16_1b_2core.bmodel   0.4469147670944586
-    eval_python bmcv yolov11s_int8_1b_2core.bmodel   0.44295948842732535
-    eval_python bmcv yolov11s_int8_4b_2core.bmodel   0.44295948842732535
-    eval_cpp soc bmcv yolov11s_fp32_1b_2core.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_fp16_1b_2core.bmodel  0.4476323631416696
-    eval_cpp soc bmcv yolov11s_int8_1b_2core.bmodel  0.44312434960861097
-    eval_cpp soc bmcv yolov11s_int8_4b_2core.bmodel  0.44312434960861097
+    eval_python opencv yolov11s_fp32_1b_2core.bmodel 0.47128957558051665 
+    eval_python opencv yolov11s_fp16_1b_2core.bmodel 0.4711250723977147
+    eval_python opencv yolov11s_int8_1b_2core.bmodel 0.465608968577901
+    eval_python opencv yolov11s_int8_4b_2core.bmodel 0.465608968577901
+    eval_python bmcv yolov11s_fp32_1b_2core.bmodel   0.47105278881045226
+    eval_python bmcv yolov11s_fp16_1b_2core.bmodel   0.4707677750154104
+    eval_python bmcv yolov11s_int8_1b_2core.bmodel   0.46160016818445254
+    eval_python bmcv yolov11s_int8_4b_2core.bmodel   0.46160016818445254
+    eval_cpp soc bmcv yolov11s_fp32_1b_2core.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_fp16_1b_2core.bmodel  0.4716757610683624
+    eval_cpp soc bmcv yolov11s_int8_1b_2core.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_int8_4b_2core.bmodel  0.4626535180155778
 
 
     
@@ -630,10 +631,10 @@ then
 
 
 
-    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4474323631416696
-    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.44112434960861097
-    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.44112434960861097
+    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4713165101098466
+    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.4626535180155778
 
     test_cpp soc bmcv yolov11s_opt_fp32_1b_2core.bmodel ../../datasets/coco/val2017_1000
     test_cpp soc bmcv yolov11s_opt_fp16_1b_2core.bmodel ../../datasets/coco/val2017_1000
@@ -642,10 +643,10 @@ then
 
 
 
-    eval_cpp soc bmcv yolov11s_opt_fp32_1b_2core.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_opt_fp16_1b_2core.bmodel  0.4474323631416696
-    eval_cpp soc bmcv yolov11s_opt_int8_1b_2core.bmodel  0.44112434960861097
-    eval_cpp soc bmcv yolov11s_opt_int8_4b_2core.bmodel  0.44112434960861097
+    eval_cpp soc bmcv yolov11s_opt_fp32_1b_2core.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_opt_fp16_1b_2core.bmodel  0.4713165101098466
+    eval_cpp soc bmcv yolov11s_opt_int8_1b_2core.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_opt_int8_4b_2core.bmodel  0.4626535180155778
   
   elif test $TARGET = "CV186X"
   then
@@ -679,18 +680,18 @@ then
     test_cpp soc bmcv yolov11s_int8_4b.bmodel ../../datasets/coco/val2017_1000
 
 
-    eval_python opencv yolov11s_fp32_1b.bmodel 0.44792962547537846 
-    eval_python opencv yolov11s_fp16_1b.bmodel 0.4474406103144259
-    eval_python opencv yolov11s_int8_1b.bmodel 0.44363683839012335
-    eval_python opencv yolov11s_int8_4b.bmodel 0.44363683839012335
-    eval_python bmcv yolov11s_fp32_1b.bmodel   0.44722585203138715
-    eval_python bmcv yolov11s_fp16_1b.bmodel   0.4469147670944586
-    eval_python bmcv yolov11s_int8_1b.bmodel   0.44295948842732535
-    eval_python bmcv yolov11s_int8_4b.bmodel   0.44295948842732535
-    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4476323631416696
-    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.44312434960861097
-    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.44312434960861097
+    eval_python opencv yolov11s_fp32_1b.bmodel 0.47128957558051665 
+    eval_python opencv yolov11s_fp16_1b.bmodel 0.4711250723977147
+    eval_python opencv yolov11s_int8_1b.bmodel 0.465608968577901
+    eval_python opencv yolov11s_int8_4b.bmodel 0.465608968577901
+    eval_python bmcv yolov11s_fp32_1b.bmodel   0.47105278881045226
+    eval_python bmcv yolov11s_fp16_1b.bmodel   0.4707677750154104
+    eval_python bmcv yolov11s_int8_1b.bmodel   0.46160016818445254
+    eval_python bmcv yolov11s_int8_4b.bmodel   0.46160016818445254
+    eval_cpp soc bmcv yolov11s_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_fp16_1b.bmodel  0.4716757610683624
+    eval_cpp soc bmcv yolov11s_int8_1b.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_int8_4b.bmodel  0.4626535180155778
 
 
     
@@ -703,10 +704,10 @@ then
 
 
 
-    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.44793660381041184
-    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4474323631416696
-    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.44212434960861097
-    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.44212434960861097
+    eval_cpp soc bmcv yolov11s_opt_fp32_1b.bmodel  0.4713286897219671
+    eval_cpp soc bmcv yolov11s_opt_fp16_1b.bmodel  0.4713165101098466
+    eval_cpp soc bmcv yolov11s_opt_int8_1b.bmodel  0.4626535180155778
+    eval_cpp soc bmcv yolov11s_opt_int8_4b.bmodel  0.4626535180155778
 
  
   fi
