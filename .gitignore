@@ -11,3 +11,4 @@ models
 datasets
 build
 results
+__pycache__
