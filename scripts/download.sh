@@ -27,15 +27,15 @@ if [ ! -d "../models" ];
 then
     mkdir ../models
     pushd ../models
-    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/models/BM1684.tar.gz
+    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/BM1684.tar.gz
     tar xvf BM1684.tar.gz && rm BM1684.tar.gz
-    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/models/BM1684X.tar.gz
+    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/BM1684X.tar.gz
     tar xvf BM1684X.tar.gz && rm BM1684X.tar.gz
-    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/models/BM1688.tar.gz
+    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/BM1688.tar.gz
     tar xvf BM1688.tar.gz && rm BM1688.tar.gz
-    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/models/CV186X.tar.gz
+    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/CV186X.tar.gz
     tar xvf CV186X.tar.gz && rm CV186X.tar.gz
-    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/models/onnx.tar.gz
+    python3 -m dfss --url=open@sophgo.com:sophon-demo/YOLOv11_det/onnx.tar.gz
     tar xvf onnx.tar.gz && rm onnx.tar.gz
     popd
     echo "models download!"
