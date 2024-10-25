@@ -12,3 +12,7 @@ datasets
 build
 results
 __pycache__
+*.json
+*.jpg
+*.soc
+*.pcie
